@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+    <!-- <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
+
+<link rel="stylesheet" href="./style.css" />
+ </head>
+<body>
+    <h2>chat app</h2>
+<div id="status"></div>
+  <section id="chat_window">
+      <div id="output"></div>
+      <div id="feedback"></div>
+  </section>
+  <input type="text"  id="handle" placeholder="username" />
+  <br />
+  <input type="text"  id="message" placeholder="message" />
+  <button id="send">Send</button>
+</body>
+<script src="./chat.js"></script>
+</html>
